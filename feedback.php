@@ -1,26 +1,30 @@
 <?php include './inc/header.php'; ?>
 
 <?php
-	$feedback = [
-		[
-			'id'=> '1',
-			'name'=> 'Jin Yung',
-			'email'=> 'jin@xing.com',
-			'body'=> 'Putin in sum fidbag!'
-		],
-		[
-			'id'=> '2',
-			'name'=> 'Ryu',
-			'email'=> 'ryu@sf.com',
-			'body'=> 'Otashino khokorocho. FIGHT!!'
-		],
-		[
-			'id'=> '3',
-			'name'=> 'Beth',
-			'email'=> 'bethg@kiss.com',
-			'body'=> 'Beth was written by Kiss.'
-		],
-	]
+	// $feedback = [
+	// 	[
+	// 		'id'=> '1',
+	// 		'name'=> 'Jin Yung',
+	// 		'email'=> 'jin@xing.com',
+	// 		'body'=> 'Putin in sum fidbag!'
+	// 	],
+	// 	[
+	// 		'id'=> '2',
+	// 		'name'=> 'Ryu',
+	// 		'email'=> 'ryu@sf.com',
+	// 		'body'=> 'Otashino khokorocho. FIGHT!!'
+	// 	],
+	// 	[
+	// 		'id'=> '3',
+	// 		'name'=> 'Beth',
+	// 		'email'=> 'bethg@kiss.com',
+	// 		'body'=> 'Beth was written by Kiss.'
+	// 	],
+	// ]
+
+	$sql = 'SELECT * FROM feedback';
+	$result = mysqli_query($conn, $sql); //CONN is coming from the header.
+	$feedback = mysqli_fetch_all($result, MYSQLI_ASSOC);
 ?>
 
 
@@ -45,6 +49,9 @@
 						<div class="text-secondary mt-2">
 							By <?php
 								echo $item['name'];
+							?> on 
+							<?php
+								echo $item['date'];
 							?>
 						</div>
 					</div>
