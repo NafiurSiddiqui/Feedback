@@ -46,12 +46,7 @@
 			echo 'Error '. mysqli_error($conn);
 		}
 	  }
-	}
-
-	// echo $nameErr;
-	// echo $name;
-
-	
+	}	
 
 ?>
 
