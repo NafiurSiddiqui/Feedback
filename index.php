@@ -54,8 +54,7 @@
 
 <!-- TO submit to the self in this case the index, we need to specify like this inside action. Or we can submit to other files as well. -->
 
-				<img src="./img/message-icon.png" class=" 
-				 w-25 mb-3" alt="" />
+				<img src="./img/logo.png" style="width: 10rem;" alt="Feedback icon" />
 				<h2>Feedback</h2>
 				<p class="lead text-center">Leave us a feedback</p>
 				<form action=" <?php
