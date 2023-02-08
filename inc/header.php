@@ -19,7 +19,7 @@
 	<body>
 		<nav class="navbar navbar-expand-sm navbar-light bg-light mb-4">
 			<div class="container">
-				<a class="navbar-brand" href="#"> Feedback board</a>
+				<a class="navbar-brand" href="#"> Feedbag</a>
 				<button
 					class="navbar-toggler"
 					type="button"

@@ -51,7 +51,6 @@
 ?>
 
 
-
 <!-- TO submit to the self in this case the index, we need to specify like this inside action. Or we can submit to other files as well. -->
 
 				<img src="./img/logo.png" style="width: 10rem;" alt="Feedback icon" />
