@@ -30,7 +30,7 @@
 			$body = filter_input(INPUT_POST, 'body', FILTER_SANITIZE_SPECIAL_CHARS);
 		}
 
-		if(empty($nameErr) && empty($emailErr) && empty($bodyErr)){
+	if(empty($nameErr) && empty($emailErr) && empty($bodyErr)){
 
 		//MEANS NO ERROR
 
@@ -54,9 +54,10 @@
 
 <!-- TO submit to the self in this case the index, we need to specify like this inside action. Or we can submit to other files as well. -->
 
-				<img src="./img/logo.png" class="w-25 mb-3" alt="" />
+				<img src="./img/message-icon.png" class=" 
+				 w-25 mb-3" alt="" />
 				<h2>Feedback</h2>
-				<p class="lead text-center">Leave feedback for Traversy Media</p>
+				<p class="lead text-center">Leave us a feedback</p>
 				<form action=" <?php
 					echo htmlspecialchars($_SERVER['PHP_SELF']);
 				?>" class="mt-4 w-75" method="post">

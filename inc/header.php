@@ -14,12 +14,12 @@
 			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
 			crossorigin="anonymous"
 		/>
-		<title>Leave Feedback</title>
+		<title>Leave your feedback</title>
 	</head>
 	<body>
 		<nav class="navbar navbar-expand-sm navbar-light bg-light mb-4">
 			<div class="container">
-				<a class="navbar-brand" href="#">Traversy Media</a>
+				<a class="navbar-brand" href="#"> Feedback board</a>
 				<button
 					class="navbar-toggler"
 					type="button"
